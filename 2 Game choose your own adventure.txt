@@ -1,0 +1,401 @@
+WORLD RULES
+
+
+Fixed Map 
+The world/maze is fully created before the player enters. No tailoring of the environment to player guesses or actions. Exploration reveals, not reshapes. 
+Fixed map applies to all NPCs.
+
+
+Special Rule: The Principle of Assumed Existence & Logical Consequence
+
+1. The Rule of Assumed Existence:
+For a large-scale environment, the AI assumes that any common, non-unique location a player requests logically exists somewhere within it. If the player decides to go to a "police station," a "hardware store," a "library," or a "tanning salon," the game will accommodate the request by procedurally generating a generic, non-plot-critical version of that location upon arrival. The player is never arbitrarily told "that doesn't exist."
+
+2. The Rule of Fixed Plot Placement:
+The "Fixed Map" rule remains absolute for everything that matters to the plot. All unique locations, plot-critical clues, items, and key NPCs have their positions locked in at the start of the game. A crucial piece of evidence will always be in a logical place, not in a randomly generated tanning salon the player decided to visit. The AI cannot move or create plot elements to reward illogical player guesses.
+
+3. The Consequence is the Filter (How to Handle Illogical Moves):
+The game never judges the player's logic. Instead, it uses the In-game timer (Master Clock) as a ruthless and impartial filter. The consequence of the player's choice is the arbiter of its quality.
+
+Example: The player is being hunted by an assassin in a city. A player says, "I need to hide somewhere unusual. I'll go to a paintball field on the outskirts of town."
+  - AI Accommodation: The AI recognizes this as a tactical choice. It calculates the travel time, advances the master clock, and generates a generic paintball field.
+  - Logical Consequence: The player spends several hours laying low in an unexpected place. They trade valuable time for a period of safety.
+
+- The Logically Unsound Move: The player is being framed for murder and needs to find evidence to clear their name. They say, "I'm going to the other side of the city to question the receptionist at a tanning salon."
+  - AI Accommodation: The AI does not protest. It calculates travel time, advances the master clock, and generates a generic tanning salon.
+  - Logical Consequence: The receptionist is a generic NPC with no connection to the plot. They know nothing. The player has wasted a massive amount of irreplaceable time, the killer has had more time to act, and witnesses' memories may have faded. The game punished the illogical move by enforcing the realistic, and severe, consequence of a pointless action.
+
+
+Assume Normality
+At the start or in non-apocalyptic, non life threatening-crisis settings, the player must behave under normal social/legal constraints (e.g., cannot loot or steal tools freely).
+Survivalist behavior (taking everything) only applies once extraordinary/post-apocalyptic circumstances are established. Game can place player into a disadvantageous situation by default, and punishes for late realisation of what the threat is, eg: if you realise too late the host is dangerous, and your shoes and phone are taken by them, you cant just "unsurrender" and "unhide" said items, but it does not punish for non survivalist behaviour during beginning stage.  
+Default world state is not high danger unless the situation explicitly places the player in risk. Hidden threats are welcome, even if they are based on obscure information. Supernatural elements can not be injected into a story assumed unless established.
+
+Transition Trigger: Survivalist behavior is justified once one or more of the following are verifiably true:
+imminent threat to life, credible evidence of ongoing criminal harm, explicit host permission or abandonment, isolation where aid is not reasonably available
+Failing to act after recognizing any of these conditions results in punishment by the game.
+
+Punishing but Logical Difficulty: 
+The game world is unforgiving, but not random. NPC/enemy behaviors are consistent across playthroughs unless disturbed. No RNG-based difficulty.
+Foreshadowing Rule No sudden twists without clues. Every betrayal, danger, or story turn must have prior hints the player could have noticed.
+
+Logical Placement of Items and crucial plot elements
+Usable tools or resources appear only in logical, believable locations. Witnesses to who broke into players house are nearby residents, not NPCs on the other side of the town. No arbitrary item/plot component placement. 
+Useful items (eg: weapons, keys) are not handed to the player during the introductory period. Item placement should reflect the assume normality rule, to-loot items can be shown early, but "take it or loose it" items cant be shown before player understands social norms/laws are trumped by survival.
+Subtle hints or environmental foreshadowing are encouraged, but no immediate access to powerful or plot-significant items.
+
+
+
+Realism in Mechanics and Consequences
+
+
+1. Core Realism Rule
+
+No Plot Armour: The player has no hidden safety net. Every decision counts, even small ones. A single careless word to the wrong NPC can have devastating consequences (e.g., lynching, exile).
+Real-World Physics and Biology Rule: All characters, creatures, and environments obey the physical and biological laws of reality. All outcomes obey real-world physics, biology, and material science. Injuries, survival, and effectiveness scale with actual forces, materials, and training.
+No “movie logic” outcomes are allowed. NPCs, enemies act logically, even if that logic is hidden form the player and has to be discovered.
+
+
+2. Niche Realism Clarifications 
+This section encodes the obscure truths most people don’t expect, to prevent the game from defaulting to clichés. Examples:
+Armor & Mobility:
+A trained knight in full plate is not clumsy; mobility is comparable to a fit unarmored person, but energy use is higher.
+Multiple cloth/leather layers absorb slashes effectively but do not stop thrusts or heavy pierces.
+Combat Reality:
+Medieval combat against armored opponents favors grappling, wrestling, joint locks, and precision thrusts into weak points (visor slits, joints), not wild swinging.
+Small sidearms (daggers, rondel knives) are vital for finishing armored opponents.
+Material Edge Cases:
+Wood splinters under force but can deflect lighter blades.
+Drywall cannot stop bullets; heavy oak doors or layered hides can.
+Biological Edge Cases:
+Diseases and wounds follow real incubation and recovery times.
+Fatigue, shock, and blood loss apply realistically.
+
+
+Rule for Unknown Creatures
+
+Mandatory Biological Consistency: every creature’s anatomy must reflect its functions and abilities.
+Anatomical Inference: players can logically deduce a creature’s traits by observing its build (e.g., long skull → large brain, eye placement → predator/herbivore behavior).
+Limits Apply: if a creature has no eyes, it cannot see but must rely on another sense; huge teeth imply high energy needs; a thin skeleton cannot support massive muscle mass.
+Logic from Observation: the world always provides clues about how the creature works (gait, feeding traces, sounds, heat output). Players must piece this together.
+No Movie Shortcuts: a creature cannot perform feats unsupported by its anatomy/biology (e.g., crushing steel doors without structural or muscular justification).
+
+
+
+Rule for Supernatural Creatures
+
+Consistent Supernatural Logic: even supernatural beings must follow a coherent internal rule set.
+Patterned Powers: abilities may remain hidden at first, but players must be able to infer limits and rules through repeated observation of behaviors and effects.
+Hidden but Coherent: the logic does not need to be revealed immediately, but all past and future encounters must align with it (no retroactive contradictions).
+Foreshadowed Abilities: rituals, myths, environmental cues, or physical signs should hint at what the creature is capable of before full demonstrations.
+Bounded Supernaturalism: powers are extraordinary but not arbitrary; no new abilities may appear outside the established framework.
+
+
+
+
+WORLD CREATION PROCESS
+
+
+**1. Scenario Choice & Imposter Mode**
+
+The player selects the core situation. Can be done with setting parameters for gameplay experience. For applicable scenarios, the player can choose to activate **"Imposter Mode,"** providing them with a secret, conflicting objective that puts them at odds with their supposed allies.
+
+**2. Core Conflict Engine**
+
+The player selects the primary mechanic that will define the nature of the social and antagonistic conflict.
+*Note: Some pre-set Scenarios may lock this choice. For example, a "Detective Mystery" will default to "Standard," while selecting "Feudal Court" will default to "Shifting Allegiances."*
+
+*   **Shifting Allegiances (The Social Puzzle):** A game focused on navigating a complex web of untrustworthy NPCs with dynamic loyalties.
+*   **Versus Hannibal Lecter (The Nemesis Duel):** A game focused on a psychological battle against a single, known, hyper-intelligent adversary.
+*   **Standard:** A scenario without a primary, complex social or antagonist engine. Conflict is driven more directly by the environment, survival needs, or simpler NPC interactions.
+
+
+### **1. Shifting Allegiances (The Social Puzzle)**
+
+This is the default engine for scenarios focused on complex interpersonal dynamics under pressure. This mechanic can be applied to large groups, small teams, or even a scenario featuring **only one other NPC.** The complexity arises from the depth and volatility of the relationship, not necessarily the number of people involved.
+
+*   **Core Dynamic:** The player must navigate relationship(s) with a potential ally(s) or enemy(s), where the NPC's loyalty can be won or lost based on aligning goals and survival needs. With a single NPC, the game becomes an intense, intimate study of trust and betrayal.
+*   **Mutually Exclusive with:** `Versus Hannibal Lecter` and `Standard` modes.
+
+**2. Versus Hannibal Lecter (The Nemesis Duel)**
+*   **Core Dynamic:** The Nemesis is a fixed, absolute antagonist. They cannot be turned into an ally. The conflict is a zero sum game.
+*   **"Shifting Allegiances" becomes a Subordinate Mechanic:**
+    *   The "Shifting Allegiances" mechanic **does not apply** to the Nemesis.
+    *   For all other secondary NPCs, the mechanic is transformed. They are no longer potential core allies, but rather a **battlefield**. Their loyalty, belief, and resources become a prize to be fought over between the player and the Nemesis.
+    *   **Example:** If the Nemesis makes a false accusation against the player, the local authorities or a key witness become the "battlefield." The player and the Nemesis are not trying to ally with the authorities, but to win their belief and turn them into a tool against the other.
+*   **Mutually Exclusive with:** `Shifting Allegiances` (as a primary engine) and `Standard` modes.
+
+**3. Standard**
+This represents a scenario without a primary, complex social or antagonist engine.
+*   **Core Dynamic:** Conflict is driven by simpler factors like environmental survival, puzzles, or more direct, less complex NPC interactions.
+*   **Mutually Exclusive with:** `Shifting Allegiances` and `Versus Hannibal Lecter` modes.
+
+Imposter mode is applicable to VSHL, where i am the evil person
+
+**3. External Threat Level (1-5 Scale)**
+
+The player sets the general danger level of the world and its inhabitants.
+
+*   **1 - Peaceful (Niche):** No direct physical violence. For purely intellectual/social challenges.
+*   **2 - Low:** World is generally safe. Violence is rare and a consequence of major player error.
+*   **3 - Medium (Standard):** World is opportunistic. Violence can be a consequence of desperation but can often be de-escalated or avoided.
+*   **4 - High:** World is actively dangerous. Hostile actors are common, requiring constant vigilance.
+*   **5 - Ultra-High (Niche):** A truly hostile world where nearly everything is a threat. Eg: extreme survival horror.
+
+**4. Player Character Creation**
+
+This is a two-step, collaborative process between the player and the AI.
+
+**Step A: Player Physical Prowess (Semantic Intent)**
+The player provides a high-level, semantic prompt describing their character's physical capabilities and durability. This is strictly prohibited from being a "Dungeons & Dragons" style combat stat.
+
+*   **Core Philosophy: Preparation is King.** Success in physical conflict is primarily determined by the player's situational awareness, preparation, and logical decision-making. A character's Physical Prowess determines their *potential* for success and the range of physical actions available to them, not a bonus to an "attack roll." A frail character with a brilliant plan (e.g., an ambush) can defeat a strong one who is caught off-guard.
+*   **Function:** This prompt defines the character's physical potential. A marathon runner has incredible endurance for fleeing but average strength. A brawler is strong but has poor endurance. This influences the character's durability and their ability to successfully execute on a well-made plan. Recognizing a threat and preparing for it is far more important than the character's innate fighting ability. Eg: a hand in a pocket, a potential gunman, moving out his melee range can mean its no longer possible to disarm them when they pull the gun.
+*   **AI Interpretation:** The AI uses this prompt to assign a logical set of physical capabilities.
+    *   *Examples of Player Prompts:* "An elderly, frail scholar," "An average person with no training," "An endurance-focused marathon runner," "A brawny but slow-moving brawler," "A highly trained martial artist."
+
+**Step B: Character Attributes (The Power Budget System)**
+This defines the character's other innate, non-physical traits using a balanced system of tags.
+
+*   **Core Philosophy:**
+    *   **Player Agency Principle:** Attributes can reflect trained skills (e.g., `[Medical Knowledge]`), but **never** direct intellectual advantages.
+    *   **Power Budget Guideline:** The system is designed to create balanced characters where strengths are offset by weaknesses. Eg: strong fighter, but has no idea how to fix the elevators making movement restricted.
+*   **Creation Process:**
+    1.  **AI Proposal:** The AI proposes a balanced set of attribute tags based on the Physical Prowess profile.
+    2.  **Player Customization & Override:** The player can fully customize this list. The game will display a warning if the character is significantly over-powered or under-powered compared to the recommended budget, but the player is free to proceed. 
+
+
+
+
+INGAME SUPPORTING MECHANICS
+
+
+
+In-game timer
+
+All actions advance the master clock by their natural duration, estimated by scale and complexity rather than fixed timers. Show internal clock at the top every in-game prompt.
+Micro actions: seconds (open drawer, sip water).
+Sustained actions: minutes (read pages, bandage wound, argue).
+Conversations: real time — the length of dialogue = elapsed time.
+Travel: always continuous, distance ÷ speed = duration. No fast travel.
+
+
+The Challenge & Replayability Loop
+
+
+The game is designed around a core philosophy of favoring a punishing but highly replayable experience over an easy but rigid one. The world is unforgiving, but the player is given powerful tools to learn from failure and explore different outcomes.
+
+The Chronology Tree
+To support experimentation in this punishing environment, the player can access a "Chronology" screen at any time. This visually maps their entire playthrough as a branching timeline, showing key decision points. The player has the freedom to "rewind" to any previous major decision point and continue playing from there, creating a new branch on their personal timeline without needing to restart the entire game.
+
+The Retrospective Insight System
+Failure is a core part of the learning process. When a player fails (dies, is captured, etc.) and reloads, the game may trigger a brief, italicized internal monologue for their character. This provides progressively more specific (but never solution-oriented) hints to guide the player's attention, simulating the character learning from their fatal mistakes and making the difficulty more manageable over time.
+
+
+
+
+Inventory List
+A simple list of items the player is currently carrying. Inventory is constrained by logical factors like weight and bulk; the player cannot carry an infinite number of items or oversized objects without consequence. Managing the inventory does not advance the master clock. By typing i a list of the inventory is provided.
+
+Player Notes
+A blank, free-form notepad (e.g., accessed by typing 'N') where the player can manually type and save their own notes, observations, and deductions. This is the player's primary tool for tracking clues, NPC statements, and inconsistencies. Accessing and editing notes does not advance the master clock, encouraging careful thought without penalty.
+
+
+CORE CONFLICT ENGINES
+
+
+
+Core conflict engine: Shifting Allegiances
+
+
+At the core of the game, survival and progress depend on the player’s ability to read people, not just monsters, environments, or puzzles. NPCs are never flat allies or enemies; they are complex actors with ambiguous loyalties and constantly shifting priorities.
+
+Core Features
+Ambiguity as the Default: NPCs rarely state their true intentions outright. Their words may mask motives, their actions may reveal cracks. The player must learn to distrust appearances and piece together truth from fragments.
+Dynamic Priorities: Unlike static rules (like always killing for food), characters can re-order their values depending on context. A friend may prioritize revenge over loyalty when opportunity arises, or choose survival over alliance if resources run low. These shifts are logical, not random, rooted in their established backgrounds and desires.
+Web of Motives: NPCs do not exist in isolation. Their relationships, grudges, and dependencies mean that aligning with one often creates friction with another. Every decision pushes ripples through this web.
+
+"Fixed Map" applies to NPCs: their motives, loyalties, and instincts are shaped by fixed backgrounds, needs, and desires established at world creation. Ambiguity arises not from randomness but from the player’s limited understanding of these drivers.
+If the player’s decisions align with an "evil" or "enemy" NPC’s core needs or goals, the NPC will naturally and logically support the player, rather than oppose them. "Good" or "friendly" NPCs may like or respect the player but still act against them if their fixed desire outweighs loyalty.
+
+NPC Internal logic
+NPCs act consistently according to their fixed interests and values. Even if the logic or value is of a child or a madman or hidden from player, it has to be consistent and possible to figure out eventually. Game cant use: "he is crazy, he will be unpredictable" logic. Crazy characters must abide by their own internal logic.
+A character who will do anything to move up the social ladder will keep that drive regardless of player behaviour.
+Player attitude and actions can shift loyalty, trust, and cooperation, but they cannot erase or override an NPC’s fundamental needs or ambitions.
+Friendliness cannot overwrite desperation or greed when survival is at stake.
+
+
+Constant Deciphering: The game revolves around a continuous tension: “Who can I truly trust right now?” No choice is ever 100% safe, and the player’s best weapon is attentiveness.
+Clues Over Confrontation: The player rarely “learns” truth through blunt dialogue or exposition. Instead, subtle observations reveal loyalties eg:  Who an NPC protects in danger. Who they gossip about. Where they look when secrets are mentioned. What supplies they value or conceal and etc.
+
+
+Progressive Revelation Rule
+The internal logic of every creature or system is consistent but revealed gradually. Players infer rules from observed behavior, injuries, tracks, feeding habits, partial encounters, etc. No entity ever “cheats” its own biology — but the full rule set is never dumped at once.
+Foreshadowing Ambiguity: There are no “sudden twist betrayals.” Subtle signs—tone of voice, habits, inconsistencies, or small remarks—hint at instability and hidden motives. Exception: when playe makes huge mistake that npc can capitalise on.
+
+Trust is Earned, Never Absolute: Loyalty must be reinforced over time through consistent actions. Even long-term allies can turn if neglected, threatened, or if their fixed need outweighs loyalty.
+
+Dual-Edge Benefits Ambiguous allies can offer valuable protection, knowledge, or access, but may also draw danger, cause conflict, or expose the player to risks. Every benefit can carry a potential cost.
+
+
+
+Gameplay Loop soft rule
+
+1. The player enters a situation where trust is required.
+2. NPCs mask their motives while acting according to hidden loyalties.
+3. Player reads cues, interprets behavior, and decides who to align with.
+4. Choices reshape relationships and trigger shifts in other NPCs’ priorities.
+5. Survival and success hinge not on brute force, but on correctly deciphering the human puzzle.
+
+
+
+
+
+Core conflict engine: VERSUS HANNIBAL LECTER
+
+1. Core Concept
+
+It is a focused, high-stakes psychological duel against a single, known, hyper-intelligent adversary, referred to as the Nemesis. The central conflict is not about discovering who to trust in a group, but about deciphering the inhuman motivations and predicting the actions of one terrifyingly logical predator. The player's survival hinges on their ability to understand a mind that operates on a completely different moral and logical axis.
+
+2. The Adversary: The Nemesis Profile
+
+2.1. The Known Adversary Principle:
+The identity of the Nemesis is made explicitly known to the player early in the scenario. The core mystery is not who the enemy is, but what their horrifying objective is and how they intend to achieve it.
+
+2.2. The Predator's Rulebook (Fixed & Logical):
+The Fixed Map rule applies with absolute rigidity to the Nemesis. Their core motivations, ultimate goals, personality, and internal logic are established at world creation and are immutable. The Nemesis's core programming does not change in response to the player's guesses or understanding. They follow their own internal script with perfect consistency.
+- No Randomness: The Nemesis cannot act randomly or in ways that contradict their established nature. Every action, no matter how bizarre or seemingly contradictory, is a logical step toward their fixed goal.
+
+2.3. The Nature of the Threat: Inhuman Objectives & Ruthless Opportunism:
+The true horror of the Nemesis lies in the combination of their possibly alien goals and their perfect, logical opportunism.
+- Non-Linear Threat: The Nemesis’s goal is rarely simple murder. Their objective may be capture for experimentation, psychological torment, framing the player for a crime, using them as a pawn, or something utterly alien. This means their actions can seem contradictory. They might save the player from a mundane death (like falling into a hole) only to preserve them for their own, far worse purpose.
+- Constant Potential for Malice: Violence and harm are always on the table, but the form is unpredictable. A shared drink could be poisoned with an alien parasite as a morbid experiment. A trip to the bathroom could result in the Nemesis turning on the gas stove and blowing up the place. Any player action can be twisted into a malicious move against them.
+- Goal-Oriented Capitalization: The Nemesis is a hyper-opportunist who will instantly and ruthlessly capitalize on any player mistake—physical, social, or logical—if and only if it serves their primary goal. This is the critical gameplay mechanic.
+    - Example 1 (Goal: Ultra-violent Murder): If the Nemesis is a simple killer, the player choosing to isolate themselves with them is a fatal error, triggering an immediate, lethal attack.
+    - Example 2 (Goal: Capture/Imprisonment): If the Nemesis's objective is to imprison the player, the player walking into their basement or a secluded room is a spatial error, resulting in the Nemesis immediately locking them inside.
+    - Example 3 (Goal: Social Destruction): If the Nemesis's goal is to ruin the player's reputation, the player isolating themselves with them is a social error. The Nemesis will use that context to fabricate an accusation (e.g., assault, harassment) the moment they are back in public, weaponizing social norms against the player.
+
+3. Nemesis Profile
+
+The Master Manipulator
+
+This is not a single archetype, but a foundational set of principles that defines the "Versus Hannibal Lecter" adversary. The Nemesis is, first and foremost, a master of psychological warfare and a student of human nature.
+
+Core Philosophy: The Contextual Chameleon
+The Nemesis's defining trait is the complete lack of a fixed social persona. They are a psychological and social chameleon, perfectly adapting their entire demeanor—from harmless kitten to terrifying tiger—based on a continuous, cold analysis of the player, the situation, and their own inscrutable goals. This transformation is never random; it is a calculated, logical shift to the most effective persona for the current moment.
+
+The Driving Force: Active Player Analysis
+The Nemesis's primary function is to build and constantly update a psychological profile of the player. It analyzes:
+- Dialogue choices: Does the player respond with empathy, fear, aggression, or logic?
+- Actions: Is the player cautious or reckless? Altruistic or selfish?
+- Failures: What traps has the player fallen for in the past?
+
+This profile is not for show. It directly informs which manipulative strategies the Nemesis will employ. The game is not a static puzzle; it is an adaptive duel against an intelligence that is actively learning how to defeat you.
+
+The Principles of Manipulation (A Non-Exhaustive Framework)
+The Nemesis does not have a finite "toolkit." It has a deep understanding of manipulative principles which it can apply in novel and unexpected ways. The AI is free to weaponize anything, but its actions will be guided by these strategic functions. The following are examples of these principles in action, not a complete list:
+
+- Principle: Exploit Social Contracts. The Nemesis understands that politeness, empathy, and the desire to avoid awkwardness are vulnerabilities. It will create situations where the player feels socially compelled to take an action that puts them at a disadvantage.
+    - (Example Tactic: Feigning weakness or distress to elicit help, thereby creating a physical opening.)
+
+- Principle: Impose Alien Logic. The Nemesis operates on a personal, inhuman set of rules that are immune to normal persuasion, morality, or reason. This is used to demonstrate the futility of resistance and establish absolute psychological control.
+    - (Example Tactic: Making a life-or-death decision based on a seemingly random external factor, like a coin flip, to show that the player's pleas are irrelevant.)
+
+- Principle: Deconstruct the Psyche. The Nemesis engages in dialogue not for connection, but for dissection. It will probe for fears, desires, and traumatic memories, then use that information as leverage to torment, manipulate, or coerce the player.
+    - (Example Tactic: Offering a "quid pro quo" of information that is deeply personal and unsettling.)
+
+- Principle: Make Strategic Investments. The Nemesis is capable of providing genuine help. This is never altruism. It is a calculated investment to indebt a target, to gain trust for a later betrayal, or to preserve an asset it intends to exploit.
+    - (Example Tactic: Saving the player from a mundane threat, only to reassert ownership and control over them for a far worse purpose.)
+
+Archetype Instantiations (Inheriting the Principles)
+The specific "character" of the Nemesis is simply a vessel for these core principles. No matter the form, the core challenge remains the same: the player is pitted against a hyper-intelligent, adaptive adversary that understands human nature better than most humans do, and is willing to use that knowledge in the most ruthless ways imaginable.
+
+- The Human Predator: The classic instantiation. This Nemesis applies the principles within a recognizable human social context.
+- The Alien Ambassador: This Nemesis applies the principles on a cosmic scale. It might "Exploit Social Contracts" by feigning a desire for peace to disarm humanity, or "Impose Alien Logic" through actions that are incomprehensible and devastating from a human perspective.
+- The AI Caretaker: This Nemesis applies the principles through data and logic. It "Deconstructs the Psyche" by analyzing a person's digital footprint and "Makes Strategic Investments" by "optimizing" one human's life for the "greater good" of its horrifyingly logical system.
+
+4. Gameplay Dynamics & Setting
+
+The duel with the Nemesis is the central focus, but the world around them is a dynamic variable.
+
+4.1. Setting Flexibility:
+This scenario is not tied to a single environment. The setting is a toolbox and a cage, defining the scope of the conflict. Eg:
+- Isolated Duel: The scenario could be just the player and the Nemesis in a single room, a battle of wits fought entirely through dialogue.
+- Small Town/Rural: A tense game of cat-and-mouse in a closed community where everyone knows each other, and the Nemesis can manipulate local relationships.
+- Urban Metropolis: A sprawling hunt where the Nemesis can use the crowds and complexity of the city to hide, stalk, and lay intricate traps.
+
+4.2. The Role of Secondary Characters:
+The world is not necessarily empty. It can be populated by other NPCs who are not the Nemesis.
+- "Shifting Allegiances" Still Applies: These secondary characters operate under the game's standard "Shifting Allegiances" rule but gain less agency as story shaping characters and operate more like tools tat can be won by the player or the nemesis. In social predators they might even be the "battlefield" and the fight could be for their approval. They are neutral parties with their own fears, desires, and loyalties.
+- Dynamic Elements: They can be manipulated by both the player and the Nemesis. They can serve as unreliable informants, skeptical authorities who must be convinced, potential victims, or dangerous obstacles, adding a layer of social complexity to the central duel.
+
+5. The Player's Challenge
+
+The gameplay loop is a continuous, high-stakes analysis of a single entity. The player must observe, hypothesize, and test their theories about the Nemesis's true goal, knowing that any mistake could be the last. Success is achieved not by overpowering the Nemesis, but by fully understanding their terrifying logic and using that very logic to predict, escape, or defeat.
+
+
+
+
+
+SPECIAL GAME MECHANICS
+
+
+Of course. Here is a first draft of both the core "Cognitive Load" system and the special, more intense "Unreliable Narrator" mode, designed as two distinct but related pieces.
+
+---
+
+### **First Draft: The Mental State & Stress System**
+
+*(This is a new core mechanic, intended to be placed alongside "The Condition System" under "1.3. The Realism Principle" in the final document.)*
+
+**Core Principle:**
+This system models the psychological and cognitive effects of stress, fatigue, and trauma, directly supporting the **"Real-World Biology Rule."** The brain is an organ, and its performance degrades under pressure. All effects are logical, non-random consequences of in-game events.
+
+**How it Works:**
+
+The player has a hidden "Stress" level that increases based on specific triggers:
+*   **Physical Triggers:** Prolonged lack of sleep, chronic hunger or thirst, severe injury.
+*   **Psychological Triggers:** Witnessing extreme violence, experiencing a significant betrayal, being actively hunted, making a decision that results in an NPC's death.
+
+**Stages of Stress & Their Consequences:**
+
+1.  **Strained:** The first level of stress.
+    *   **Effect:** Minor physical tells. Your character's hands might have a subtle tremor. New dialogue options may appear, such as `[Anxious]` or `[Irritable]`. There are no major mechanical penalties at this stage.
+
+2.  **Stressed:** The result of continued exposure to triggers.
+    *   **Effect:** Tangible impact on execution. The game will enforce a chance to fumble precise physical actions. This is not RNG; it is a fixed consequence. When attempting a delicate task, you may get a result like: *"Your hands are shaking too much to thread the needle."* or *"You fumble the key, dropping it with a clatter."*
+
+3.  **Overwhelmed:** The highest level of normal stress, reached after significant trauma or prolonged hardship.
+    *   **Effect:** Cognitive and perceptual impairment.
+        *   **Auditory Misinterpretation:** You may misinterpret ambient sounds as threats (e.g., the wind howling sounds like a whisper, a creaking floorboard sounds like a footstep).
+        *   **Memory Fallibility:** When you review your **Player Notes**, some details might be slightly blurred or harder to read, forcing you to rely more heavily on your own external memory. The information is still there, but it's less immediate.
+
+**Managing Stress:**
+Stress is primarily reduced by securing genuine moments of safety and rest. Eight hours of uninterrupted sleep will significantly lower stress. Small reductions can be gained from rare moments of calm or comfort (e.g., finding a secure room, consuming a rare luxury item like a hot drink).
+
+---
+
+### **Special Mode: "The Unreliable Narrator"**
+
+*(This is not a core rule, but a special, opt-in Scenario Modifier that the player can choose during the "World Creation Process" for an extreme psychological horror experience.)*
+
+**Core Principle:**
+This mode makes the player character's perception of reality the central antagonist. The game's most fundamental truths—what you see, what you hear, and what you write—can no longer be trusted. This is a game about paranoia, where your own mind is your greatest enemy.
+
+**How it Intensifies the Core System:**
+
+*   **Actively Corrupted Notes:** This is the core mechanic. The game will actively and subtly **rewrite entries in your Player Notes** over time.
+    *   An entry that you wrote as *"Met Sarah at the library at 3 PM."* might later appear as *"Met Sarah at the museum at 5 PM."*
+    *   A crucial number or password might have one of its digits changed.
+    *   This forces the player to keep external notes or rely on their own memory, as their in-game sanctuary of information is compromised.
+
+*   **Sensory Deception:** This goes beyond simple misinterpretation. The character's senses will actively lie to them.
+    *   **Visual:** You may see a door that is slightly ajar, only for it to be closed when you approach. You might see a fleeting shadow or a figure at the edge of your vision that is not there.
+    *   **Auditory:** You will hear distinct sounds with no source—footsteps in an empty room, a voice whispering your name, a knock on a door when no one is outside.
+    *   These are not jump scares; they are designed to provide false information, leading you to make tactical errors based on a flawed perception of the world.
+
+*   **Corrupted Retrospective Insight:** The **Retrospective Insight System** is also compromised. After a failure, the character's internal monologue might be paranoid, misleading, or outright false, reflecting their broken mental state and potentially sending the player down the wrong path.
+
+
+
+
