@@ -92,4 +92,4 @@ Scenario: Nemesis Duel (Versus Hannibal Lecter)
 ---
 
 ## Full Document
-See [WorldRules.pdf](WorldRules.pdf) for the complete<span class="ml-2" /><span class="inline-block w-3 h-3 rounded-full bg-neutral-a12 align-middle mb-[0.1rem]" />
+See other file
