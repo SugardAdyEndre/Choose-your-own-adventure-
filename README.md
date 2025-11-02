@@ -1,95 +1,108 @@
-# Choose Your Own Adventure Game System
+# Deterministic Narrative Game System
 
-This repository contains the design for a deterministic "choose your own adventure" framework.  
-Player decisions are resolved through fixed rules, logical consequences, and consistent NPC logic rather than randomness.  
-
----
-
-## Contents
-1. Game Overview  
-2. Core Conflict Engines  
-3. World Rules  
-4. Niche Realism Clarifications  
-5. Example Scenarios  
-6. Full Document  
+A framework for building choice-driven narrative games where outcomes follow **logic**, not randomness.
+The system emphasizes **consistent world rules**, **coherent NPC behavior**, and **consequences that persist** across the course of play.
 
 ---
 
-## Game Overview
-- The world is built before play begins (fixed map).  
-- NPCs have defined motives and act according to them with consistency.  
-- Time is tracked through a Master Clock; every action has a cost.  
-- Consequences follow real logic instead of narrative shortcuts.  
+## Overview
+
+This system models a world that:
+
+* Is **fully constructed before play** (fixed map, factions, goals).
+* Tracks **time and opportunity cost** through a Master Clock.
+* Represents NPCs as agents with **clear motives and priorities**.
+* Resolves actions through **cause and effect**, not dice rolls.
+
+Player success depends on **observation, decision-making, and inference** rather than chance.
 
 ---
 
-## Core Conflict Engines
-There are two major subsystems of conflict:
+## Core Structures
 
-**Shifting Allegiances**  
-- NPC alliances change based on goals, fears, and pressure points.  
-- Player actions create ripple effects across a network of relationships.  
-- Ambiguity is the baseline; trust must be earned, and even allies may turn against the player under new conditions.  
+### World Model
 
-**Versus Hannibal Lecter**  (archetype)
-- A duel with a Nemesis character who follows a fixed internal script.  
-- The Nemesis exploits any mistake — physical, social, or psychological.  
-- Difficulty is maximized by opportunism: every error is capitalized on in logical and devastating ways.  
-- The Nemesis also engages in psychoanalysis, adapting tactics based on observed player behaviors.  
+* The environment is static in structure but dynamic in state.
+* Exploration reveals information; it does not alter topology.
+* Social, legal, and cultural norms apply until superseded by necessity.
 
----
+### NPC Logic
 
-## World Rules
-Defines how the environment and mechanics behave:  
-- Fixed map: exploration reveals but does not reshape.  
-- Logical consequence: wasted actions cost time and opportunity.  
-- Assume normality: social and legal rules apply until extraordinary or survival triggers override them.  
-- Consistent NPC logic: every character follows coherent motives; their behavior can be decoded with observation.  
+NPCs are defined by:
 
----
+* **Goals**
+* **Constraints**
+* **Risk tolerance**
+* **Memory of interactions**
 
-## Niche Realism Clarifications
-Special realism rules cover overlooked details to avoid clichés:  
-- Armor: plate armor allows mobility and is not clumsy.  
-- Combat: grappling and precision thrusts are effective against armored opponents.  
-- Materials: drywall does not stop bullets; oak or layered barriers can.  
-- Wounds: trauma, fatigue, and blood loss progress according to real biology.  
-- Small arms: daggers and knives are critical finishing tools against armored foes.  
+Their behavior changes when pressures change, but it remains internally consistent.
+
+### Time and Consequences
+
+* Actions consume time.
+* Time affects opportunity, resource availability, and situational stability.
+* Delays shift the state of the world even without direct player involvement.
 
 ---
 
-## Example Scenarios
+## Conflict Engines
 
-Scenario: Social Loyalty (Shifting Allegiances)  
-- The player defends NPC‑A during an ambush, leaving NPC‑B exposed.  
-- NPC‑A becomes more loyal and provides material support later.  
-- NPC‑B, feeling betrayed, spreads distrust among others.  
-- Weeks later, during a food shortage, NPC‑B influences the group to withhold supplies.  
-- The original decision echoes forward, shifting both loyalty and survival resources.  
+### Shifting Allegiances
 
----
+A network-based social system where:
 
-Scenario: Logical Tactic (World Rules)  
-- The player hides in a paintball arena on the outskirts of the city.  
-- Travel consumes 2 hours → Master Clock advances.  
-- Arena provides temporary obscurity and lowers immediate risk.  
-- Returning is slowed when weather worsens, adding fatigue.  
-- Meanwhile a key witness relocates and memories fade during lost time.  
-- Result: short‑term safety achieved, long‑term progress irreversibly reduced.  
+* Supporting one character may undermine trust with another.
+* Alliances form and erode based on observed behavior.
+* Loyalty is conditional and context-dependent.
 
----
+### Nemesis Model (Adversarial Intelligence)
 
-Scenario: Nemesis Duel (Versus Hannibal Lecter)  
-- The player isolates in a locked room with the Nemesis.  
-- For several minutes, the Nemesis only observes and asks questions.  
-- Every response is psychoanalyzed: fear noted as weakness, confidence noted as arrogance.  
-- A small contradiction becomes ammunition for later. A dropped object becomes evidence in a false accusation.  
-- If the Nemesis’s goal is violence → isolation triggers immediate lethal action.  
-- If the goal is imprisonment → the player is locked away at the first opportunity.  
-- If the goal is social destruction → the Nemesis reframes the meeting as damning “proof,” weaponizing reputation.  
-- No actions are random. Each response follows a fixed internal program that ruthlessly adapts to exploit the player’s mistakes.  
+A design pattern for a single, high-agency antagonist who:
+
+* Observes the player's decisions
+* Identifies behavioral patterns
+* Responds by exploiting predictable weaknesses
+
+No randomness is used; pressure escalates logically.
 
 ---
 
-## Full Document
-See other file
+## Realism Guidelines
+
+Clarifications included to prevent common misunderstandings found in fiction and games:
+
+* **Armor:** Plate allows mobility; disabling an armored target relies on grappling and directed thrusts.
+* **Cover:** Drywall and light materials do not meaningfully stop projectiles; denser layered barriers matter.
+* **Injury:** Outcomes follow real trauma progression (blood loss, fatigue, impairment).
+* **Weapons:** Small blades are close-range and decisive, not secondary or cinematic props.
+
+The goal is internal coherence rather than simulationism for its own sake.
+
+---
+
+## Example Outcome Chain (Illustrative)
+
+**Decision:** The player chooses to aid one character during a crisis.
+
+**Immediate Result:** That character becomes more cooperative.
+
+**Secondary Effect:** Another character perceives the act as neglect or favoritism.
+
+**Long-Term Outcome:** Social support shifts; resource access and trust networks realign.
+
+The system does not create these effects dynamically; they follow from predetermined character motives and world conditions.
+
+---
+
+## Intended Applications
+
+* Narrative games with **persistent state**
+* Tabletop or solo roleplay where **logic replaces dice**
+* Fiction prototypes requiring **consistent character behavior**
+
+---
+
+## Full Rules
+
+See the full design document in this repository for detailed mechanics, structures, and scenario examples.
+
